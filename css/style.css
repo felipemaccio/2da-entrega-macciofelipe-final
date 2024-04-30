@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito", sans-serif;
+    
+}
+/*Nav estilos Bootstrap*/
+.f-tamaño{
+    width: 100%;
+    height: 550px;
+    object-fit: fill;
+}
+.f-locales{
+    width: 75%;
+    height: auto;
+    object-fit: fill;
+}
+.f-div{
+    width: 100% !important;
+    text-align: center;
+}
+@media(max-whith: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+.f-button{
+    color: #8bb390;
+}
+.col__f-pd{
+    width: 240px;
+}
+
+footer{
+    background: #8bb390;
+    min-height: 70px;
+}
+
+footer div {
+    align-content: center;
+}
+
+
+#iconos i {
+font-size: 26px;
+padding: 0px 8px;
+color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/*header*/
+.encabezado{
+    height: 5rem;
+    background-color:#8bb390 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.encabezado img{
+    display: inline-block;
+    align-content: center;
+    margin: 5px;
+}
+.encabezado nav{
+    display: inline-block;
+    width: 60%;
+    align-content: center;
+}
+.encabezado nav ul{
+    text-align: end;
+}
+.encabezado nav ul li{
+    display: inline-block;
+    padding: 0px 12px;
+}
+.encabezado nav ul li a{
+    text-decoration: none;
+}
+/*main
+.carusel{
+    display: flex;
+    width: 22rem;
+}
+.carusel__imag-top{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.carusel__imag-top img{
+    width: 100%;
+}
+.titulo{
+    font-family: "Nunito", sans-serif;
+}
+*/
+h2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.articulos h3{
+    font-family: "Nunito", sans-serif;
+}
+.img-locales{
+    width: 650px;
+
+}
+.img-locales img{
+    width: 80%;
+}
+.img-locales p{
+    text-align: justify;
+}
+.localesimg{
+    width: 600px;
+}
+.localesimg img{
+    width: 100%;
+}
+.destacados div{
+    width:350px;
+}
+.destacados div img{
+    width: 100%;
+}
+.prod-destacados div{
+    width: 350px; ;
+}
+.prod-destacados div img{
+    width: 100%;
+}
+.card{
+    width: 10px;
+}
+.contacto-icon div{
+    background-color: #f0f8ff;
+    width: 250px;
+    border-radius: 10px;
+    white-space: 10px;
+}
+.contacto-icon div img{
+    width: 50%;
+}
+
