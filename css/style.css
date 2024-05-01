@@ -8,7 +8,16 @@
 .f-tamaño{
     width: 100%;
     height: 550px;
-    object-fit: fill;
+    object-fit: cover;
+    object-position: top;
+}
+@media(max-width: 991px) {
+    .f-tamaño{
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+        object-position: top;
+    }
 }
 .f-locales{
     width: 75%;
@@ -19,7 +28,7 @@
     width: 100% !important;
     text-align: center;
 }
-@media(max-whith: 576px) {
+@media(max-width: 576px) {
     .icono-wrap{
         flex-wrap: wrap;
         justify-content: center !important;
@@ -57,15 +66,14 @@ color: #ffffff;
 
 /*header*/
 .encabezado{
-    height: 5rem;
+
     background-color:#8bb390 ;
-    display: flex;
-    justify-content: space-evenly;
 }
 .encabezado img{
     display: inline-block;
     align-content: center;
     margin: 5px;
+    height: 70px;
 }
 .encabezado nav{
     display: inline-block;
@@ -81,6 +89,9 @@ color: #ffffff;
 }
 .encabezado nav ul li a{
     text-decoration: none;
+}
+#navbarSupportedContent {
+    justify-content: end;
 }
 /*main
 .carusel{
