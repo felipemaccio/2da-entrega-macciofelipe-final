@@ -1,0 +1,28 @@
+.encabezado{
+    background-color:$background-color-main;
+    img{
+        display: $inline-block;
+        align-content: center;
+        margin: 5px;
+        height: 70px;
+    }
+    nav{
+        display: $inline-block;
+        width: 60%;
+        align-content: center;
+        ul{
+            text-align: end;
+            li{
+                display: $inline-block;
+                padding: 0px 12px;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+#navbarSupportedContent {
+    justify-content: end;
+}

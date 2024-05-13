@@ -1,0 +1,69 @@
+.f{
+    &-tamaño{
+        width: $width-100xciento;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    &-locales{
+        width: $width-75xciento;
+        height: auto;
+        object-fit: fill;
+    }
+    &__categorias{
+        &__img{ 
+            width: $width-100xciento;
+            height: 200px;
+            object-fit: cover;
+            object-position: right;
+        }
+    }
+    &-div{
+        width: $width-100xciento !important;
+        text-align: center;
+    }
+    &__productos-destacados{
+        display: $flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        img{
+            width: $width-75xciento;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+    &__contactos{
+        background: $background-color-main;
+        &__p{
+            margin-bottom: 0rem;
+        }
+    }    
+}
+
+.img{
+    &-locales{
+        width: 650px;
+        img{
+            width: 80%;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+.col{
+    &__f-pd{
+        width: 240px;
+    }
+}
+
+.h2{
+    display: $flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    line-height: 1.2;
+}

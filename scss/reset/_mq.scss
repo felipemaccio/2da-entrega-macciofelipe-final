@@ -1,0 +1,17 @@
+@media(max-width: 991px) {
+    .f-tamaño{
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+/*Mobile*/
+
+@media(max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
