@@ -1,16 +1,18 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: "Nunito", sans-serif;
-    
+    font-family: "Nunito", sans-serif;   
 }
+
 /*Nav estilos Bootstrap*/
+
 .f-tamaño{
     width: 100%;
-    height: 550px;
+    height: 500px;
     object-fit: cover;
     object-position: top;
 }
+
 @media(max-width: 991px) {
     .f-tamaño{
         width: 100%;
@@ -19,6 +21,15 @@
         object-position: top;
     }
 }
+
+.f__categorias__img{ 
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: right;
+}
+
+
 .f-locales{
     width: 75%;
     height: auto;
@@ -40,7 +51,23 @@
 .col__f-pd{
     width: 240px;
 }
+.f__productos-destacados{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.f__productos-destacados img{
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+}
 
+.f__contactos{
+    background: #8bb390;
+}
+.f__contactos__p{
+    margin-bottom: 0rem;
+}
 footer{
     background: #8bb390;
     min-height: 70px;
@@ -56,13 +83,6 @@ font-size: 26px;
 padding: 0px 8px;
 color: #ffffff;
 }
-
-
-
-
-
-
-
 
 /*header*/
 .encabezado{
@@ -93,23 +113,7 @@ color: #ffffff;
 #navbarSupportedContent {
     justify-content: end;
 }
-/*main
-.carusel{
-    display: flex;
-    width: 22rem;
-}
-.carusel__imag-top{
-    width: auto;
-    display: flex;
-    flex-direction: row;
-}
-.carusel__imag-top img{
-    width: 100%;
-}
-.titulo{
-    font-family: "Nunito", sans-serif;
-}
-*/
+
 h2{
     display: flex;
     justify-content: space-evenly;
