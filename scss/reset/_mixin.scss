@@ -1,0 +1,11 @@
+//mixins sin parametros 
+
+
+//mixins con parametros 
+
+@mixin space ($p, $m, $w, $h){
+    padding:$p;
+    margin:$m;
+    width:$w;
+    height:$h;
+}

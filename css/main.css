@@ -8,11 +8,14 @@
 
 .encabezado {
   background-color: #8bb390;
+  background: linear-gradient(90deg, #8bb390 0%, rgb(255, 255, 255) 100%, rgb(254, 254, 254) 100%);
 }
 .encabezado img {
   display: inline-block;
   align-content: center;
+  padding: none;
   margin: 5px;
+  width: none;
   height: 70px;
 }
 .encabezado nav {
@@ -35,13 +38,13 @@
   justify-content: end;
 }
 
-.f-tamaño {
+.f__tamaño {
   width: 100%;
   height: 500px;
   object-fit: cover;
   object-position: top;
 }
-.f-locales {
+.f__locales {
   width: 75%;
   height: auto;
   object-fit: fill;
@@ -52,9 +55,14 @@
   object-fit: cover;
   object-position: right;
 }
-.f-div {
+.f__div {
   width: 100% !important;
   text-align: center;
+}
+.f__div-2 {
+  width: 100% !important;
+  text-align: center;
+  height: 110vh;
 }
 .f__productos-destacados {
   display: flex;
@@ -73,13 +81,13 @@
   margin-bottom: 0rem;
 }
 
-.img-locales {
+.img__locales {
   width: 650px;
 }
-.img-locales img {
+.img__locales img {
   width: 80%;
 }
-.img-locales p {
+.img__locales p {
   text-align: justify;
 }
 
@@ -87,7 +95,7 @@
   width: 240px;
 }
 
-.h2 {
+h2 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 5px;
