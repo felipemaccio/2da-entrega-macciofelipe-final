@@ -22,8 +22,12 @@
     &__div{
         width: $width-100xciento !important;
         text-align: center;
-        p{
-            font-size: small;
+        div{
+            p{
+                font-size: small;
+                display: flex;
+                justify-content: center;
+            }
         }
     }
     &__div-2{
@@ -62,9 +66,7 @@
             margin-bottom: 0rem;
         }
     }
-    &__contactos__1{
-        div{text-align: unset}
-    }
+
     &__contactos__2{
         display: flex;
         flex-direction: column;
