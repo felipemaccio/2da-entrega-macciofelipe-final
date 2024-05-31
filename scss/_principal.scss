@@ -22,6 +22,9 @@
     &__div{
         width: $width-100xciento !important;
         text-align: center;
+        p{
+            font-size: small;
+        }
     }
     &__div-2{
         width: $width-100xciento !important;
@@ -38,13 +41,51 @@
             height: auto;
             object-fit: contain;
         }
+        &__card{
+            width: 12rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div{
+                p{
+                    font-size: x-small;
+                }
+            }           
+        }
     }
     &__contactos{
         background: $background-color-main;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         &__p{
             margin-bottom: 0rem;
         }
-    }    
+    }
+    &__contactos__1{
+        div{text-align: unset}
+    }
+    &__contactos__2{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        div{
+            p{
+                text-align: unset;
+            }
+        }
+        &__der{
+            align-content: center;}
+    }
+    &__prod-titulo{
+        font-size: 0.9rem !important;
+    }
+      
+}
+
+.carousel__destacados{
+    display: flex !important;
+    flex-direction: column;
 }
 
 .img{
@@ -65,12 +106,30 @@
     }
 }
 
-h2{
+h1{
     display: $flex;
     justify-content: space-evenly;
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: 500;
     line-height: 1.2;
-    font-size: map-get($titulos, 3rem );
+    font-size: medium
+}
+
+h2{
+    display: $flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+h3{
+    display: $flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+
+p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: justify;
 }

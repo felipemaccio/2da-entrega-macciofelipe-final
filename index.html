@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Opengraph-->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Barraca Corralon Sur ">
+    <meta property="og:url" content="https://felipemaccio.github.io/3ra-entrega-macciofelipe/">
+    <meta property="og:image" content="https://github.com/felipemaccio/3ra-entrega-macciofelipe/blob/main/assets/logo%20corralon%20sur.png">
+    <meta property="og:description" content="Empresa fundada en diciembre de 1993, estamos situados en la 
+    calle Santiago Figueredo al 481 de la cuidad de Florida, 
+    y nuestra sucursal, fundada en diciembre de 1999, se sitúa en la calle Dr. González al 475.">
+    <!--Keyword kw-->
+    <meta name="keywords" content="barraca, corralon sur, florida, uy, ferreteria, cocinas, baños, construccion, hogar, revestimientos">
+    <!--Descripcion: dsc-->
+    <meta name="descripcion" content="Empresa especializada en el rubro de materiales de construccion. Fundada en diciembre de 1993, situados en la ciudad de Florida, Uruguay">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,15 +26,16 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Mis estilos-->
     <link rel="stylesheet" href="./css/main.css">
-    <title>Barraca Corralon Sur</title>
+    <title>Home - Barraca Corralon Sur</title>
 </head>
 
 <body>
- 
   <header>
-    <nav class="navbar navbar-expand-lg encabezado">
+    <nav class="navbar sticky-top navbar-expand-lg encabezado">
       <div class="container-fluid animate__animated animate__fadeIn">
         <img src="./assets/logo corralon sur.png" alt="logo corralon sur">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,52 +95,128 @@
     </section>  
 
     <section>
-      <h2 class="fs-3 mt-4 px-4">Locales</h2>
+      <h1 class="mt-4 px-4">LOCALES</h1>
     </section>
 
     <section class="container-fluid">
       <div class="row mx-auto my-4 f__div">
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img class="f__locales" src="./assets/Casa central.jpg" alt="Sasacentral">
+          <img class="f__locales" data-aos="fade-up" data-aos-duration="1500" src="./assets/Casa central.jpg" alt="Casacentral">
           <div>
-            <p class="fs-5 mt-4 px-4">Casa central</p>
+            <p class="mt-4 px-4">CASA CENTRAL</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img class="f__locales" src="./assets/Sucursal.jpg" alt="Sucursal">
+          <img class="f__locales" data-aos="fade-up" data-aos-duration="1500" src="./assets/Sucursal.jpg" alt="Sucursal">
           <div>
-            <p class="fs-5 mt-4 px-4">Sucrusal</p>
+            <p class="mt-4 px-4">SUCURSAL</p>
           </div>
         </div>  
       </div>
     </section>
 
     <div class="d-grid gap-2 col-6 mx-auto">
-      <button class="btn btn-outline-success " type="button">Productos en liquidacion</button>
+      <button class="btn btn-outline-success f__prod-titulo" type="button">PRODUCTOS EN LIQUIDACION</button>
     </div>
 
     <section>
-      <h2 class="fs-4 mt-4 px-4">Productos destacados</h2>
+      <h3 class="my-3 px-4">PRODUCTOS DESTACADOS</h3>
     </section> 
 
-    <section>
-      <div class="d-flex justify-content-center mt-5 mb-5 mx-5"> 
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6 align-content-center f__productos-destacados">
-            <img class="col__f-pd" src="./assets/ducha.jpeg" alt="ducha">
-          </div>  
-          <div class="col-lg-3 col-md-6 col-sm-6 align-content-center f__productos-destacados">
-            <img class="col__f-pd" src="./assets/carretilla.jpg" alt="carretilla">
-          </div>  
-          <div class="col-lg-3 col-md-6 col-sm-6 align-content-center f__productos-destacados">
-            <img class="col__f-pd" src="./assets/pinturas.avif" alt="pinturas">
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 align-content-center f__productos-destacados">
-            <img class="col__f-pd" src="./assets/Taladro.png" alt="taladro">
-          </div>  
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <div id="Destacados-index" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         </div>
-      </div>  
-    </section> 
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="mt-5 mb-5 mx-5">
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 align-content-center f__productos-destacados">
+                  <div class="card f__productos-destacados__card" style="width: 12rem;">
+                    <img src="./assets/Destacados/Ferreteria/amoladora angular 4 1-2.png" class="card-img-top" alt="amoladora">
+                    <div class="card-body">
+                      <p class="card-text text-center">AMOLADORA ANGULAR 4 1/2" 750W </p>
+                    </div>
+                  </div>
+                </div>  
+                <div class="col-lg-3 col-md-3 col-sm-3 align-content-center f__productos-destacados">
+                  <div class="card f__productos-destacados__card" style="width: 12rem;">
+                    <img src="./assets/Destacados/Ferreteria/caja herramientas.webp" class="card-img-top" alt="caja-de-herramientas">
+                    <div class="card-body">
+                      <p class="card-text text-center">CAJA HERRAMIENTAS 14" BROCHE PLASTICO </p>
+                    </div>
+                  </div>
+                </div>  
+                <div class="col-lg-3 col-md-3 col-sm-3 align-content-center f__productos-destacados">
+                  <div class="card f__productos-destacados__card" style="width: 12rem;">
+                    <img src="./assets/Destacados/Construccion/Hormigonera.jpg" class="card-img-top" alt="Hormigonera">
+                    <div class="card-body">
+                      <p class="card-text text-center">HORMIGONERA 180L 1HP </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 align-content-center f__productos-destacados">
+                  <div class="card f__productos-destacados__card" style="width: 12rem;">
+                    <img src="./assets/Destacados/Construccion/ladrillos.webp" class="card-img-top" alt="Ladrillo-de-campo">
+                    <div class="card-body">
+                      <p class="card-text text-center">LADRILLO DE CAMPO COLORADO </p>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </div>  
+          </div>
+          <div class="carousel-item">
+            <div class="mt-5 mb-5 mx-5">
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 align-content-center f__productos-destacados">
+                  <div class="card f__productos-destacados__card" style="width: 12rem;">
+                    <img src="./assets/Destacados/Sanitaria/SELLA ROSCA SANITARIA.webp" class="card-img-top" alt="SELLA-ROSCA-SANITARIA">
+                    <div class="card-body">
+                      <p class="card-text text-center">SELLA ROSCA SANITARIA </p>
+                    </div>
+                  </div>
+                </div>  
+                <div class="col-lg-3 col-md-3 col-sm-3 align-content-center f__productos-destacados">
+                  <div class="card f__productos-destacados__card" style="width: 12rem;">
+                    <img src="./assets/Destacados/Sanitaria/UNION_DOBLE_PLASTICA_FUSION.webp" class="card-img-top" alt="UNION-DOBLE-FUSION">
+                    <div class="card-body">
+                      <p class="card-text text-center">KL-UNION DOBLE PLÁSTICA FUSIÓN 25 MM </p>
+                    </div>
+                  </div>
+                </div>  
+                <div class="col-lg-3 col-md-3 col-sm-3 align-content-center f__productos-destacados">
+                  <div class="card f__productos-destacados__card" style="width: 12rem;">
+                    <img src="./assets/Destacados/Pintureria/Incalex-toque-sublime.png" class="card-img-top" alt="Incalex-toque-sublime">
+                    <div class="card-body">
+                      <p class="card-text text-center">INCALEX TOQUE SUBLIME BLANCO 4LTS </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 align-content-center f__productos-destacados">
+                  <div class="card f__productos-destacados__card" style="width: 12rem;">
+                    <img src="./assets/Destacados/Pintureria/inca-cielos-rasos-antihongos-20.webp" class="card-img-top" alt="INCA-CIELO-RASOS-20LTS">
+                    <div class="card-body">
+                      <p class="card-text text-center">INCA CIELOS RASOS ANTIHONGOS 20 LTS </p>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </div>  
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Destacados-index" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Destacados-index" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button> 
+        </div>
+      </div>
+    </div> 
   </main>
 
   <footer class="w-100 d-flex align-items justify-content-center flex-wrap" >
@@ -137,10 +226,12 @@
       <a href="#"><i class="bi bi-youtube"></i></a>
     </div>
   </footer>
-
-<!--Script Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
+  <!--Script Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <!--Script Aos-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init();</script>
 </body>
+
 </html>
